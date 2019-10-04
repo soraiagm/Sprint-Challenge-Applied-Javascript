@@ -68,7 +68,7 @@ function cardComponent(data) {
 
  
     headline.textContent = data.headline;
-    cardAuthorName.textContent = data.authorName;
+    cardAuthorName.textContent = `By ${data.authorName}`;
     cardAuthorImage.src = data.authorPhoto;
     
     return card
