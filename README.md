@@ -38,6 +38,7 @@ Edit this document to include your answers after each question. Make sure to lea
    An event listener is listening for a specific event that happens on a specific element, such as a user clicking a button or a mouse hovering over an element, or text being entered into an input field. When one of those events happens on that element, we can do something about it, this is the event listener. We put event listeners on elements and give them a callback, and when the event is triggered on the element, the callback is run.
 
 4. Why would we convert a NodeList into an Array?
+    a NodeList is a browser api, it is not a javascript api that lets you access DOM element, we would convert a nodelist into an array so we can access its methods, you cannot access these methods when it is a nodelist. 
 
 5. What is a component?
    Components are reusable pieces of code that can be used to build elements sharing functionality and styling. Components are the heart of any dynamic web application and JavaScript framework.
