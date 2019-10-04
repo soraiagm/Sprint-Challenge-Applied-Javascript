@@ -29,14 +29,18 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. What is the DOM?
+   The DOM which stands for Document Object Model is an object representation of the html elements of a webpage. It gives us an interface with which we can interact with and manipulate the page, changing the document structure, content, and styling. It is a tree structure with each DOM element, therefore it's a tree node, containing the same property keys as each other node. Some of these nodes are properties that are informational while others are methods that we cause for interaction. 
 
 2. What is an event?
+   Events are the way users interact with a page. Any time there is some interaction by way of a mouse or keyboard, such as a click, scrolling a page, pressing a key, etc., the DOM creates and propagates an event object. This event object carries information about the event so that it may be handled at any point up the tree from the point of origin.
 
 3. What is an event listener?
+   An event listener is listening for a specific event that happens on a specific element, such as a user clicking a button or a mouse hovering over an element, or text being entered into an input field. When one of those events happens on that element, we can do something about it, this is the event listener. We put event listeners on elements and give them a callback, and when the event is triggered on the element, the callback is run.
 
 4. Why would we convert a NodeList into an Array?
 
 5. What is a component?
+   Components are reusable pieces of code that can be used to build elements sharing functionality and styling. Components are the heart of any dynamic web application and JavaScript framework.
 
 ### Git Set up
 
